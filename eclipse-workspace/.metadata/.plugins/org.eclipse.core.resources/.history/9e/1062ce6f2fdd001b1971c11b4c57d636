@@ -1,0 +1,21 @@
+package test;
+
+public class Test15 {
+
+	public static void main(String[] args) {
+		
+		int [] array = new int[99];
+		int i;
+		
+		for(int num = 0; num < array.length; num++ ) {
+			if(num % 3 == 0) {
+				array[] = num;
+				continue;
+				
+			}
+			System.out.println(array[]);
+		}
+		
+	}
+
+}

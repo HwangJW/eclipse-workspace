@@ -1,0 +1,18 @@
+package test;
+
+public class Test14 {
+
+	public static void main(String[] args) {
+
+		int[] array = new int[10];
+		int i = (int) (Math.random() * 10 + 1);
+		
+		System.out.print("랜덤한 정수들 : ");
+		for (i = 0; i < array.length; i++) {
+
+			array[i] = i;
+			
+			System.out.print(array[i] + " ");
+		}
+	}
+}
